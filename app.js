@@ -79,12 +79,12 @@ form.addEventListener("submit", async (e) => {
             <button
               class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
             >
-              <a target=_blank href="https:/github.com/${res.data.login}">Check Github <i  class="fa-brands fa-github fa-bounce "></i></a>
+              <a  href="https:/github.com/${res.data.login}">Check Github <i  class="fa-brands fa-github fa-bounce "></i></a>
             </button>
             <button
               class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
             >
-              <a target=_blank href="https:/github.com/${res.data.login}?tab=repositories">Repos <i class="fa-solid fa-code-branch fa-beat" style="color:#01233e
+              <a  href="https:/github.com/${res.data.login}?tab=repositories">Repos <i class="fa-solid fa-code-branch fa-beat" style="color:#01233e
               ;"></i></a>
             </button>
           </div>
