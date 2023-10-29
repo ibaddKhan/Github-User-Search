@@ -11,7 +11,9 @@ form.addEventListener("submit", async (e) => {
     console.log(res.data);
     printt();
     function printt() {
-      res.data.name = res.data.name === null ? "No name" : res.data.name;
+      res.data.name =
+        res.data.name === null ? "No Name" : res.data.name.toUpperCase();
+
       res.data.location =
         res.data.location === null ? "Earth" : res.data.location;
       res.data.bio =
