@@ -9,7 +9,6 @@ form.addEventListener("submit", async (e) => {
   try {
     const res = await axios.get(`https://api.github.com/users/${inputt}`);
     console.log(res.data);
-
     printt();
     function printt() {
       res.data.name = res.data.name === null ? "No name" : res.data.name;
