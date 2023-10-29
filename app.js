@@ -57,7 +57,7 @@ form.addEventListener("submit", async (e) => {
                   <th>Repositories :</th>
                   <td>
                    <a class="repo-link" style="hover"href="https://github.com/${res.data.login}?tab=repositories" target="_blank">${res.data.public_repos}</a>
-                    
+
                   </td>
                 </tr>
                 <th>Followers :</th>
@@ -89,8 +89,7 @@ form.addEventListener("submit", async (e) => {
             <a href="https://github.com/${res.data.login}?tab=repositories" target="_blank">Repos <i class="fa-solid fa-code-branch fa-beat" style="color:#01233e;"></i></a>
           </button>
         </div>
-        
-        
+
         </div>
       </div>
     </section>`;
