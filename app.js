@@ -56,7 +56,7 @@ form.addEventListener("submit", async (e) => {
                 <tr>
                   <th>Repositories :</th>
                   <td>
-                   <a class="repo-link" style="hover" target =_blank href="https:/github.com/${res.data.login}?tab=repositories">${res.data.public_repos}</a>
+                   <a class="repo-link" style="hover"href="https://github.com/${res.data.login}?tab=repositories" target="_blank">${res.data.public_repos}</a>
                     
                   </td>
                 </tr>
