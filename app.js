@@ -11,11 +11,12 @@ form.addEventListener("submit", async (e) => {
     console.log(res.data);
     printt();
     function printt() {
-      res.data.name =
-        res.data.name === null ? "No Name" : res.data.name.toUpperCase();
-
+      res.data.name = res.data.name === null ? "No name" : res.data.name;
       res.data.location =
-        res.data.location === null ? "Earth" : res.data.location;
+        res.data.location === null
+          ? "Earth"
+          : res.data.location.charAt(0).toUpperCase() +
+            res.data.location.slice(1);
       res.data.bio =
         res.data.bio === null ? "No biography defined !!" : res.data.bio;
 
@@ -89,6 +90,8 @@ form.addEventListener("submit", async (e) => {
           </button>
         </div>
         
+        
+        </div>
       </div>
     </section>`;
 
