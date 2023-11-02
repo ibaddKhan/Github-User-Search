@@ -100,6 +100,7 @@ form.addEventListener("submit", async (e) => {
       }
     }
   } catch (error) {
+    div2.innerHTML = "";
     div2.innerHTML = `<h2>Not an Account named '${input.value}'</h2>`;
     if (error) {
       div.innerHTML = "";
