@@ -13,7 +13,7 @@ form {
 
 .searchTerm {
   width: 100%;
-  min-width: 70%;
+  min-width: 80%;
   border: 3px solid #00b4cc;
   border-right: none;
   padding: 15px;
@@ -40,7 +40,8 @@ form {
 }
 
 .wrap {
-  width: 30%;
+  width: 30vw;
+  min-width: 60vw;
   position: absolute;
   top: 10%;
   left: 50%;
